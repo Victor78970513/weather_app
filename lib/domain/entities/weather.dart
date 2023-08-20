@@ -4,7 +4,7 @@ class Weather {
   final double tempC;
   final double tempF;
   final int isDay;
-  final String condition;
+  // final String condition;
   final double windMph;
   final double windKph;
   final int windDegree;
@@ -16,7 +16,7 @@ class Weather {
   final int humidity;
   final int cloud;
   final double feelslikeC;
-  final int feelslikeF;
+  final double feelslikeF;
   final int visKm;
   final int visMiles;
   final int uv;
@@ -29,7 +29,7 @@ class Weather {
     required this.tempC,
     required this.tempF,
     required this.isDay,
-    required this.condition,
+    // required this.condition,
     required this.windMph,
     required this.windKph,
     required this.windDegree,
